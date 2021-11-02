@@ -9,9 +9,9 @@ def main():
         
         url = 'https://wttr.in/{}?Tqnm&lang=ru'.format(location)
 
-        responce = requests.get(url)
-        responce.raise_for_status()
-        print(responce.text)
+        response = requests.get(url)
+        response.raise_for_status()
+        print(response.text)
 
 if __name__ == '__main__':
     main()
