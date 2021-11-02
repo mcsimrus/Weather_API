@@ -1,9 +1,10 @@
 import requests
 
 
-locations = ('London', 'SVO', 'Череповец')
-
 def main():
+
+    locations = ('London', 'SVO', 'Череповец')
+
     for location in locations:
         
         url = 'https://wttr.in/{}?qnm&lang=ru'.format(location)
