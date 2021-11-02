@@ -7,7 +7,7 @@ def main():
 
     for location in locations:
         
-        url = 'https://wttr.in/{}?qnm&lang=ru'.format(location)
+        url = 'https://wttr.in/{}?Tqnm&lang=ru'.format(location)
 
         responce = requests.get(url)
         responce.raise_for_status()
